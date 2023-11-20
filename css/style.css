@@ -5,9 +5,8 @@
 .link{
     text-decoration: none;
 }
-
 button{
-    cursor: pointer;
+    cursor: pointer
 }
 body{
     font-family: Roboto, sans-serif;
@@ -76,4 +75,59 @@ body{
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
-.main-button{}
+.main-button{
+    background-color: #4D5AE5;
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.04em;
+}
+.main-button:hover,
+.main-button:focus{
+    background-color: #404BBF
+}
+.section-item-one{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;
+}
+.section-paragraf-one{
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.section-three{
+    background-color: #F4F4FD
+}
+.section-header{
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.section-list{
+    background-color: #FFFFFF
+}
+.footer-menu{
+    background-color: #2e2f42;
+}
+.footer-text{
+    color: var(--CLOUD, #F4F4FD);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
